@@ -1,0 +1,5 @@
+studytime_label,Student_Count,Mean_G3,Std_G3,Median_G3,Pass_Rate
+< 2 hours,105,10.05,4.96,10.0,64.76
+2 to 5 hours,198,10.17,4.22,11.0,64.65
+5 to 10 hours,65,11.4,4.64,12.0,75.38
+> 10 hours,27,11.26,5.28,12.0,74.07
