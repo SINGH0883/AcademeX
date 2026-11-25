@@ -1,0 +1,3 @@
+Cohort,Sample Size,Mean,Std Dev,Median,Skewness,Kurtosis,Shapiro-Wilk W,Shapiro p-value,D’Agostino K²,D’Agostino p-value,Is Normal (α=0.05)
+"Full Target (G3, N=395)",395,10.42,4.58,11.0,-0.733,0.403,0.9287,8.8359e-13,32.0592,1.0925e-07,No
+"Active Sitting Cohort (G3 > 0, N=357)",357,11.52,3.23,11.0,0.209,-0.402,0.9808,1.0898e-04,6.1024,4.7303e-02,No

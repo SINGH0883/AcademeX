@@ -20,7 +20,7 @@ The final project will be delivered as a comprehensive, publication-quality **PD
 | :--- | :--- | :--- | :---: | :--- |
 | **Day 1** | **Data Collection & Preprocessing** | • Gather and extract UCI student performance data.<br>• Perform data hygiene, profiling, and missing value checks.<br>• Binary mapping & one-hot encoding for nominal attributes.<br>• Feature engineering (`prior_avg_grade`, `support_index`, `passed`).<br>• Save clean dataset & stratified train/test split. | **COMPLETED** ✅ | • `data/student-mat.csv`<br>• `src/preprocess.py`<br>• `data/student_clean.csv` |
 | **Day 2 (1/4)** | **Univariate Descriptive Statistics & Profiling** | • Compute parametric & non-parametric central tendency (mean, median, mode).<br>• Evaluate dispersion (variance, std dev, IQR, range, CV%).<br>• Distribution asymmetry (skewness & kurtosis).<br>• Stratified subgroup breakdowns (study hours vs grades, failures vs grades). | **COMPLETED** ✅ | • `src/eda_descriptive_stats.py`<br>• `reports/day2_part1_descriptive_stats.csv`<br>• `reports/day2_part1_studytime_breakdown.csv`<br>• `reports/day2_part1_summary.md` |
-| **Day 2 (2/4)** | **Target Variable Distribution & Normality** | • Shapiro-Wilk & D'Agostino-Pearson normality tests.<br>• Density distribution & zero-grade dropout analysis.<br>• Academic grade category distribution. | **PENDING** ⏳ | • `figures/distribution_target.png`<br>• Normality test report |
+| **Day 2 (2/4)** | **Target Variable Distribution & Normality** | • Shapiro-Wilk & D'Agostino-Pearson normality tests.<br>• Density distribution & zero-grade dropout analysis.<br>• Academic grade category distribution. | **COMPLETED** ✅ | • `src/eda_target_normality.py`<br>• `figures/target_distribution_and_qq.png`<br>• `figures/grade_tiers_breakdown.png`<br>• `reports/day2_part2_normality_tests.csv`<br>• `reports/day2_part2_grade_tiers.csv`<br>• `reports/day2_part2_summary.md` |
 | **Day 2 (3/4)** | **Correlation & Association Analysis** | • Pearson & Spearman rank correlation matrices.<br>• Heatmap visualization and statistical significance testing.<br>• Multicollinearity screening between predictors. | **PENDING** ⏳ | • `figures/correlation_heatmap.png`<br>• Correlation matrix table |
 | **Day 2 (4/4)** | **Feature Deep Dives & Visualization** | • Study time vs final grades boxplots & violin plots.<br>• Prior grades ($G1, G2$) linear regression fit scatter.<br>• School absences & class failures risk interaction. | **PENDING** ⏳ | • `figures/studytime_vs_grade.png`<br>• `figures/prior_grades_vs_final.png`<br>• `figures/absences_failures_effect.png` |
 | **Day 3** | **Baseline Regression & Theoretical Foundations** | • Mathematical formulation of Ordinary Least Squares (OLS).<br>• Verify Gauss-Markov assumptions (Linearity, Exogeneity, Homoscedasticity).<br>• Build univariate baseline (study time $\rightarrow$ G3) and bivariate baseline (G1, G2 $\rightarrow$ G3).<br>• Assess multicollinearity via Variance Inflation Factor (VIF). | **PENDING** ⏳ | • Baseline metrics table<br>• Statistical intuition analysis |
@@ -100,3 +100,16 @@ d:\My Pro\L&T Pro\
   - [`reports/day2_part1_descriptive_stats.csv`](reports/day2_part1_descriptive_stats.csv)
   - [`reports/day2_part1_studytime_breakdown.csv`](reports/day2_part1_studytime_breakdown.csv)
   - [`reports/day2_part1_summary.md`](reports/day2_part1_summary.md)
+
+### Day 2 (Part 2 of 4): Completed
+- Built target evaluation module: [`src/eda_target_normality.py`](src/eda_target_normality.py).
+- Conducted hypothesis tests for normality: Shapiro-Wilk ($W=0.9287, p=8.84\times 10^{-13}$), D'Agostino-Pearson omnibus test ($K^2=32.06, p=1.09\times 10^{-7}$).
+- Isolated and analyzed zero-score phenomenon: 38 students (9.62%) with $G3=0$ representing unexcused exam absenteeism/dropouts. Evaluated active sitting cohort ($N=357, G3>0$) showing quasi-normal distribution ($\mu=11.52, \text{Skew}=0.209$).
+- Classified student outcomes into 5 academic grade tiers: Distinction (10.13%), Good (15.19%), Pass (41.77%), Failing (23.29%), Zero-score dropouts (9.62%).
+- Generated diagnostic visualizations:
+  - [`figures/target_distribution_and_qq.png`](figures/target_distribution_and_qq.png) (Empirical KDE, theoretical normal PDF fit, Normal Q-Q plot)
+  - [`figures/grade_tiers_breakdown.png`](figures/grade_tiers_breakdown.png) (Academic tier count and percentage distribution)
+- Exported audit artifacts:
+  - [`reports/day2_part2_normality_tests.csv`](reports/day2_part2_normality_tests.csv)
+  - [`reports/day2_part2_grade_tiers.csv`](reports/day2_part2_grade_tiers.csv)
+  - [`reports/day2_part2_summary.md`](reports/day2_part2_summary.md)

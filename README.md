@@ -17,7 +17,7 @@ For full details, see [`plan.md`](plan.md).
 - **Day 1 (Completed ✅):** Data Collection, Preprocessing, Encoding & Feature Engineering (`prior_avg_grade`, `support_index`, `passed`).
 - **Day 2 (In Progress 🔄):** Exploratory Data Analysis (EDA) & Statistical Intuition.
   - **Part 1/4 (Completed ✅):** Univariate Descriptive Statistics & Feature Profiling (`src/eda_descriptive_stats.py`, `reports/`).
-  - **Part 2/4 (Pending ⏳):** Target Variable Distribution & Normality Testing.
+  - **Part 2/4 (Completed ✅):** Target Variable Distribution, Q-Q Plot & Normality Testing (`src/eda_target_normality.py`, `figures/`).
   - **Part 3/4 (Pending ⏳):** Correlation & Multicollinearity Analysis.
   - **Part 4/4 (Pending ⏳):** Feature Deep Dives & Visualization.
 - **Day 3 (Pending ⏳):** Baseline Regression & Gauss-Markov Assumptions.
