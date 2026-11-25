@@ -1,0 +1,13 @@
+Metric,Value
+G1 vs G3 Slope (β1),1.106
+G1 vs G3 Intercept (β0),-1.653
+G1 vs G3 Correlation (r),0.801
+G1 vs G3 Variance Explained (R²),0.642
+G2 vs G3 Slope (β1),1.102
+G2 vs G3 Intercept (β0),-1.393
+G2 vs G3 Correlation (r),0.905
+G2 vs G3 Variance Explained (R²),0.819
+Mean G3 (0 Failures),11.25
+Mean G3 (1 Failure),8.12
+Mean G3 (2 Failures),6.24
+Mean G3 (3 Failures),5.69
