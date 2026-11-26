@@ -20,11 +20,11 @@ For full details, see [`plan.md`](plan.md).
   - **Part 2/4 (Completed ✅):** Target Variable Distribution, Q-Q Plot & Normality Testing (`src/eda_target_normality.py`, `figures/`).
   - **Part 3/4 (Completed ✅):** Correlation & Multicollinearity Analysis (`src/eda_correlations.py`, `figures/correlation_heatmap.png`, `reports/`).
   - **Part 4/4 (Completed ✅):** Feature Deep Dives & Longitudinal Visualizations (`src/eda_deep_dives.py`, `figures/`).
-- **Day 3 (In Progress 🔄):** Baseline Regression & Theoretical Foundations.
+- **Day 3 (Completed ✅):** Baseline Regression & Theoretical Foundations.
   - **Part 1/4 (Completed ✅):** OLS Mathematical Formulation & Univariate Baselines (`src/baseline_univariate_models.py`, `figures/`).
   - **Part 2/4 (Completed ✅):** Academic Core Baseline & Multivariate Progression (`src/baseline_core_model.py`, `figures/`).
   - **Part 3/4 (Completed ✅):** Gauss-Markov Assumptions Verification & Residual Diagnostics (`src/baseline_assumptions.py`, `figures/`).
-  - **Part 4/4 (Pending ⏳):** Multicollinearity Diagnostics & Variance Inflation Factor (VIF).
+  - **Part 4/4 (Completed ✅):** Multicollinearity Diagnostics & Variance Inflation Factor (`src/baseline_vif_multicollinearity.py`, `figures/`).
 - **Day 4 (Pending ⏳):** Multiple Linear Regression & Regularization (Ridge / Lasso).
 - **Day 5 (Pending ⏳):** Model Diagnostics, Evaluation & Confusion Matrix.
 - **Day 6 (Pending ⏳):** Interactive Prediction & Academic Advisory System Deployment.

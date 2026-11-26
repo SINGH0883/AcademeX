@@ -1,0 +1,19 @@
+Feature,Auxiliary R²,Tolerance,VIF,Collinearity Severity
+G1,0.7503,0.2497,4.0,Moderate Collinearity (2.5 <= VIF < 5) 🟡
+G2,0.7482,0.2518,3.97,Moderate Collinearity (2.5 <= VIF < 5) 🟡
+Walc,0.556,0.444,2.25,Low / Acceptable (VIF < 2.5) 🟢
+Dalc,0.4618,0.5382,1.86,Low / Acceptable (VIF < 2.5) 🟢
+Medu,0.4448,0.5552,1.8,Low / Acceptable (VIF < 2.5) 🟢
+Fedu,0.4298,0.5702,1.75,Low / Acceptable (VIF < 2.5) 🟢
+goout,0.3336,0.6664,1.5,Low / Acceptable (VIF < 2.5) 🟢
+failures,0.2787,0.7213,1.39,Low / Acceptable (VIF < 2.5) 🟢
+support_index,0.1942,0.8058,1.24,Low / Acceptable (VIF < 2.5) 🟢
+freetime,0.1843,0.8157,1.23,Low / Acceptable (VIF < 2.5) 🟢
+higher,0.1721,0.8279,1.21,Low / Acceptable (VIF < 2.5) 🟢
+studytime,0.161,0.839,1.19,Low / Acceptable (VIF < 2.5) 🟢
+traveltime,0.1032,0.8968,1.12,Low / Acceptable (VIF < 2.5) 🟢
+internet,0.1067,0.8933,1.12,Low / Acceptable (VIF < 2.5) 🟢
+romantic,0.0998,0.9002,1.11,Low / Acceptable (VIF < 2.5) 🟢
+absences,0.0836,0.9164,1.09,Low / Acceptable (VIF < 2.5) 🟢
+famrel,0.0681,0.9319,1.07,Low / Acceptable (VIF < 2.5) 🟢
+health,0.069,0.931,1.07,Low / Acceptable (VIF < 2.5) 🟢
