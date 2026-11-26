@@ -1,0 +1,8 @@
+Feature,Description,Intercept (β0),Slope (β1),SE(β1),t-statistic,p-value,Train R²,Test R²,Test RMSE,Test MAE,Significance
+G2,Period 2 Grade (G2),-1.493,1.108,0.029,38.43,0.000e+00,0.825,0.794,2.04,1.29,*** (p < 0.001)
+prior_avg_grade,Prior Average Grade,-2.775,1.217,0.034,35.6,0.000e+00,0.801,0.749,2.24,1.61,*** (p < 0.001)
+G1,Period 1 Grade (G1),-1.98,1.134,0.047,24.14,0.000e+00,0.65,0.609,2.8,2.05,*** (p < 0.001)
+Medu,Mother’s Education,8.043,0.869,0.229,3.8,1.753e-04,0.044,0.06,4.34,3.28,*** (p < 0.001)
+studytime,Weekly Study Time,9.404,0.501,0.314,1.59,1.123e-01,0.008,0.016,4.45,3.25,ns
+absences,School Absences,10.335,0.016,0.032,0.5,6.203e-01,0.001,0.002,4.48,3.32,ns
+failures,Past Class Failures,11.237,-2.445,0.317,-7.71,1.621e-13,0.159,-0.001,4.48,3.44,*** (p < 0.001)
