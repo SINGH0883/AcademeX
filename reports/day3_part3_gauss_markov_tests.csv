@@ -1,0 +1,7 @@
+Assumption,Theoretical Requirement,Test / Metric,Observed Value,Benchmark / Criterion,Status / Verdict
+1. Linearity in Parameters,y = Xβ + ε (Functional form is linear),Model Functional Form,Affine Linear: G3 = β0 + β1*G1 + β2*G2 + β3*studytime,Linear combination of predictors,Satisfied ✅
+2. Zero Conditional Mean of Errors,E[ε | X] = 0 (Errors orthogonal to X),"Mean(e) & Max |Corr(X_j, e)|","Mean = -1.35e-14, Max Corr = 1.60e-15","Mean ≈ 0, Correlation ≈ 0",Satisfied ✅
+3. Full Column Rank (No Exact Collinearity),rank(X) = p + 1 (Invertible X^T X),Matrix Rank & Condition Number (κ),"Rank = 4 / 4, Condition No. = 66.36","Rank = p+1, Condition No. < 30",Satisfied ✅
+4. Homoscedasticity (Constant Variance),Var(ε_i | X) = σ² (Equal dispersion across fitted values),Breusch-Pagan Lagrange Multiplier Test,"LM = 17.13, p-value = 6.633e-04",p > 0.05 indicates constant variance,Mild Heteroscedasticity ⚠️ (p < 0.05 due to zero-dropouts)
+5. No Autocorrelation (Independent Errors),"Cov(ε_i, ε_j) = 0 for all i ≠ j",Durbin-Watson Test Statistic (d),d = 2.067,1.80 < d < 2.20 indicates zero autocorrelation,Satisfied ✅
+Normality of Residuals (Hypothesis Testing),"ε ~ N(0, σ²) (Required for exact t & F inference)",Shapiro-Wilk & Jarque-Bera Tests,"SW W = 0.716 (p = 8.38e-23), JB = 1418.7",p > 0.05 indicates normality,Near Normal (Heavy left tail from zero scores)
