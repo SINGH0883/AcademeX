@@ -1,0 +1,6 @@
+Tier,Model Name,Num Features,Features Used,Train R²,Test R²,Adj Test R²,Δ R² (Gain),Test RMSE,Test MAE,AIC,BIC,Intercept (β0)
+Tier 1,Univariate G2,1,G2,0.8247,0.7936,0.7909,0.7936,2.036,1.289,116.35,121.09,-1.493
+Tier 2,Bivariate Academic Trajectory,2,"G1, G2",0.8293,0.7909,0.7854,-0.0026,2.049,1.307,119.35,126.45,-2.04
+Tier 3,Academic Core Trivariate,3,"G1, G2, studytime",0.8302,0.792,0.7837,0.0011,2.044,1.323,120.95,130.42,-1.758
+Tier 4,Core + Academic Risk Factors,5,"G1, G2, studytime, failures, absences",0.8369,0.7922,0.7779,0.0002,2.043,1.329,124.88,139.1,-1.491
+Tier 5,Engineered Features Baseline,5,"prior_avg_grade, studytime, support_index, failures, absences",0.8119,0.7596,0.7432,-0.0325,2.197,1.585,136.37,150.58,-2.501

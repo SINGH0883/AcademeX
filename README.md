@@ -22,7 +22,7 @@ For full details, see [`plan.md`](plan.md).
   - **Part 4/4 (Completed ✅):** Feature Deep Dives & Longitudinal Visualizations (`src/eda_deep_dives.py`, `figures/`).
 - **Day 3 (In Progress 🔄):** Baseline Regression & Theoretical Foundations.
   - **Part 1/4 (Completed ✅):** OLS Mathematical Formulation & Univariate Baselines (`src/baseline_univariate_models.py`, `figures/`).
-  - **Part 2/4 (Pending ⏳):** Academic Core Baseline (Multivariate Progression).
+  - **Part 2/4 (Completed ✅):** Academic Core Baseline & Multivariate Progression (`src/baseline_core_model.py`, `figures/`).
   - **Part 3/4 (Pending ⏳):** Gauss-Markov Assumptions Verification & Residual Diagnostics.
   - **Part 4/4 (Pending ⏳):** Multicollinearity Diagnostics & Variance Inflation Factor (VIF).
 - **Day 4 (Pending ⏳):** Multiple Linear Regression & Regularization (Ridge / Lasso).
