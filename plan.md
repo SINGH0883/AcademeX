@@ -201,3 +201,15 @@ d:\My Pro\L&T Pro\
 - Exported audit artifacts:
   - [`reports/day3_part4_vif_analysis.csv`](reports/day3_part4_vif_analysis.csv)
   - [`reports/day3_part4_summary.md`](reports/day3_part4_summary.md)
+
+### Day 4 (Part 1 of 4): Completed
+- Trained unconstrained Multiple Linear Regression (OLS) across all 43 engineered predictors: [`src/model_full_ols.py`](src/model_full_ols.py).
+- Evaluated model fit and overfitting penalties:
+  - In-Sample Train $R^2 = 0.8529$, Out-of-Sample Test $R^2 = 0.7712$.
+  - Adjusted Test $R^2 = 0.4902$ (a steep drop reflecting severe parameter proliferation penalty with $p = 43$ on $N_{\text{test}} = 79$).
+  - Test $\text{RMSE} = 2.143$, $\text{MAE} = 1.545$, $\text{AIC} = 208.64$, $\text{BIC} = 312.89$.
+- Computed analytical standard errors, $t$-statistics, and two-tailed $p$-values for all 43 slope coefficients. Identified top positive drivers ($G2: \beta = 0.750, \text{prior\_avg\_grade}: \beta = 0.382, famrel: \beta = 0.302$) and drag factors ($activities: \beta = -0.499$).
+- Generated 300 DPI visualization: [`figures/full_ols_coefficients.png`](figures/full_ols_coefficients.png) (Top 15 regression coefficients ranked by magnitude).
+- Exported audit artifacts:
+  - [`reports/day4_part1_full_ols_results.csv`](reports/day4_part1_full_ols_results.csv)
+  - [`reports/day4_part1_summary.md`](reports/day4_part1_summary.md)
