@@ -1,0 +1,44 @@
+Feature,Lasso Standardized β,Status,Direction
+G2,2.9329,Retained (Active) ✅,Positive (+)
+prior_avg_grade,1.1315,Retained (Active) ✅,Positive (+)
+absences,0.2059,Retained (Active) ✅,Positive (+)
+famrel,0.178,Retained (Active) ✅,Positive (+)
+failures,-0.1583,Retained (Active) ✅,Negative (-)
+Walc,0.1157,Retained (Active) ✅,Positive (+)
+Fjob_services,-0.1108,Retained (Active) ✅,Negative (-)
+reason_home,-0.0932,Retained (Active) ✅,Negative (-)
+activities,-0.0858,Retained (Active) ✅,Negative (-)
+age,-0.0796,Retained (Active) ✅,Negative (-)
+freetime,0.0455,Retained (Active) ✅,Positive (+)
+traveltime,0.0058,Retained (Active) ✅,Positive (+)
+higher,0.0034,Retained (Active) ✅,Positive (+)
+studytime,-0.0023,Retained (Active) ✅,Negative (-)
+romantic,-0.0012,Retained (Active) ✅,Negative (-)
+health,0.0001,Retained (Active) ✅,Positive (+)
+address,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+school,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+sex,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Fedu,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+famsize,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Pstatus,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Medu,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+internet,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+nursery,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+famsup,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+paid,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+G1,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Dalc,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+goout,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+schoolsup,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Mjob_services,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Mjob_teacher,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Mjob_other,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Mjob_health,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Fjob_other,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Fjob_health,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+reason_other,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+Fjob_teacher,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+reason_reputation,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+guardian_mother,0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+guardian_other,-0.0,Eliminated (Sparse 0) ❌,Zeroed Out
+support_index,0.0,Eliminated (Sparse 0) ❌,Zeroed Out

@@ -28,7 +28,7 @@ For full details, see [`plan.md`](plan.md).
 - **Day 4 (In Progress 🔄):** Multiple Linear Regression & Regularization (Ridge / Lasso).
   - **Part 1/4 (Completed ✅):** Full Multiple Linear Regression (OLS with 43 features) (`src/model_full_ols.py`, `figures/`).
   - **Part 2/4 (Completed ✅):** Ridge Regression ($L_2$ Regularization) & Alpha CV (`src/model_ridge.py`, `figures/`).
-  - **Part 3/4 (Pending ⏳):** Lasso Regression ($L_1$ Regularization) & Feature Selection.
+  - **Part 3/4 (Completed ✅):** Lasso Regression ($L_1$ Regularization) & Sparse Feature Selection (`src/model_lasso.py`, `figures/`).
   - **Part 4/4 (Pending ⏳):** Tri-Model Comparative Synthesis & Model Serialization.
 - **Day 5 (Pending ⏳):** Model Diagnostics, Evaluation & Confusion Matrix.
 - **Day 6 (Pending ⏳):** Interactive Prediction & Academic Advisory System Deployment.
