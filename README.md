@@ -27,7 +27,7 @@ For full details, see [`plan.md`](plan.md).
   - **Part 4/4 (Completed ✅):** Multicollinearity Diagnostics & Variance Inflation Factor (`src/baseline_vif_multicollinearity.py`, `figures/`).
 - **Day 4 (In Progress 🔄):** Multiple Linear Regression & Regularization (Ridge / Lasso).
   - **Part 1/4 (Completed ✅):** Full Multiple Linear Regression (OLS with 43 features) (`src/model_full_ols.py`, `figures/`).
-  - **Part 2/4 (Pending ⏳):** Ridge Regression ($L_2$ Regularization) & Alpha CV.
+  - **Part 2/4 (Completed ✅):** Ridge Regression ($L_2$ Regularization) & Alpha CV (`src/model_ridge.py`, `figures/`).
   - **Part 3/4 (Pending ⏳):** Lasso Regression ($L_1$ Regularization) & Feature Selection.
   - **Part 4/4 (Pending ⏳):** Tri-Model Comparative Synthesis & Model Serialization.
 - **Day 5 (Pending ⏳):** Model Diagnostics, Evaluation & Confusion Matrix.

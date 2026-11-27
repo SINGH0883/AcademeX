@@ -1,0 +1,3 @@
+Model Architecture,Regularization (Penalty),Train R²,Test R²,Adj Test R²,Test RMSE,Test MAE,Max |β|,Mean |β|
+Unconstrained OLS (Full 43 Features),None (α = 0),0.8581,0.7712,0.4902,2.143,1.544,2.718,0.203
+Ridge Regression (L2 Shrinkage),L2 (α* = 15.199),0.856,0.7698,0.487,2.15,1.555,2.325,0.193
