@@ -1,0 +1,6 @@
+Model,Regularization,Tuning Params,Active Features,Sparsity (%),Train R²,Test R²,Adj Test R²,Test RMSE,Test MAE,AIC,BIC
+Academic Core OLS,Unregularized Subset,"G1, G2, studytime",3,0.0%,0.8302,0.792,0.7837,2.044,1.323,120.95,130.42
+Full Multiple OLS,Unregularized Full,All 43 features,43,0.0%,0.8581,0.7712,0.4902,2.143,1.544,208.46,312.72
+Ridge Regression,L2 Regularized,α = 15.20,43,0.0%,0.856,0.7698,0.487,2.15,1.555,208.96,313.22
+Lasso Regression,L1 Regularized (Sparse),α = 0.106,16,62.8%,0.8453,0.7949,0.742,2.029,1.34,145.82,186.1
+Elastic Net,L1 + L2 Hybrid,"α = 0.102, l1_ratio = 0.95",18,58.1%,0.8466,0.7939,0.732,2.035,1.358,150.23,195.25

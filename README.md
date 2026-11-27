@@ -25,11 +25,11 @@ For full details, see [`plan.md`](plan.md).
   - **Part 2/4 (Completed ✅):** Academic Core Baseline & Multivariate Progression (`src/baseline_core_model.py`, `figures/`).
   - **Part 3/4 (Completed ✅):** Gauss-Markov Assumptions Verification & Residual Diagnostics (`src/baseline_assumptions.py`, `figures/`).
   - **Part 4/4 (Completed ✅):** Multicollinearity Diagnostics & Variance Inflation Factor (`src/baseline_vif_multicollinearity.py`, `figures/`).
-- **Day 4 (In Progress 🔄):** Multiple Linear Regression & Regularization (Ridge / Lasso).
+- **Day 4 (Completed ✅):** Multiple Linear Regression & Regularization (Ridge / Lasso / Elastic Net).
   - **Part 1/4 (Completed ✅):** Full Multiple Linear Regression (OLS with 43 features) (`src/model_full_ols.py`, `figures/`).
   - **Part 2/4 (Completed ✅):** Ridge Regression ($L_2$ Regularization) & Alpha CV (`src/model_ridge.py`, `figures/`).
   - **Part 3/4 (Completed ✅):** Lasso Regression ($L_1$ Regularization) & Sparse Feature Selection (`src/model_lasso.py`, `figures/`).
-  - **Part 4/4 (Pending ⏳):** Tri-Model Comparative Synthesis & Model Serialization.
+  - **Part 4/4 (Completed ✅):** Tri-Model Comparative Synthesis & Model Serialization (`src/model_comparison.py`, `models/linear_regression_model.joblib`).
 - **Day 5 (Pending ⏳):** Model Diagnostics, Evaluation & Confusion Matrix.
 - **Day 6 (Pending ⏳):** Interactive Prediction & Academic Advisory System Deployment.
 - **Day 7 (Pending ⏳):** Final Report Compilation & Submission-ready PDF Generation.
